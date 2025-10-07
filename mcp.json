@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "command": "python",
+    "args": ["slides_converter.py"],
+    "transport": { "stdio": true }
+  }
+}

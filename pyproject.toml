@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slides-converter-mcp"
+version = "0.1.0"
+description = "PDF slaytlarını 4-up yerleşimle dönüştüren MCP sunucusu"
+readme = "README.md"
+authors = [{ name = "enes-gon" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "PyMuPDF>=1.24.9,<2.0.0",
+  "fpdf2>=2.7.9,<3.0.0",
+  "fastmcp>=0.4.1,<1.0.0"
+]
+
+[project.urls]
+Homepage = "https://mcp.so"
